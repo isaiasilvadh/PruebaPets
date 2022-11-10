@@ -94,13 +94,13 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btn_calc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
         android:backgroundTint="#475BC6"
         android:text="Calcular IMC"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
-        tools:layout_editor_absoluteX="132dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="364dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

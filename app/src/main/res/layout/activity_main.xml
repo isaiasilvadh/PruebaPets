@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Servicio de Mascotas"
-        android:textColor="#132B70"
+        android:textColor="#406EC8"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -72,13 +72,12 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="396dp"
-        android:layout_height="199dp"
+        android:layout_width="346dp"
+        android:layout_height="147dp"
         android:layout_marginTop="20dp"
         android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
+        android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:srcCompat="@drawable/pe" />
